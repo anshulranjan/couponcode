@@ -11,7 +11,7 @@ if($rr1)
     ?>
     <script>
     alert("Coupon Code Successfully Reademed");
-    window.location.href='view.html';
+    window.location.href='viewcode.html';
     </script>
     <?php
 }
@@ -20,7 +20,7 @@ else
     ?>
     <script>
     alert("Can't Reademed Now. Try again");
-    window.location.href='view.html';
+    window.location.href='viewcode.html';
     </script>
     <?php
 }
