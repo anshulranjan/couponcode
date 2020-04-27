@@ -52,7 +52,7 @@ if(mysqli_num_rows($r1) == 0) {
     ?>
     <script>
         alert("No coupons found");
-        window.location.href='view.html';
+        window.location.href='viewcode.html';
         </script>
     <?php
 }
@@ -101,7 +101,7 @@ $_SESSION['status'] = $r3['ccode'];
     }
     else{
         ?>
-        <a href="process.php"><div class="col-submit">
+        <a href="reademcoupon.php"><div class="col-submit">
         <button class="submitbtn">Readem Coupon</button>
             </div></a>
         <?php
